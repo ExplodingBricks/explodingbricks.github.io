@@ -1,0 +1,29 @@
+{
+  "name": "Exploding Bricks",
+  "description": "Exploding Bricks's site.",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "export": "nuxt export"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.11.1",
+    "@nuxt/image": "^0.2.1",
+    "@nuxtjs/feed": "^2.0.0",
+    "@nuxtjs/onesignal": "^3.0.0-beta.16",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^9.8.6",
+    "core-js": "^3.8.2",
+    "nuxt": "^2.14.12",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.4.2"
+  }
+}
